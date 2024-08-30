@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Hover effect on div */
+        div:hover {
+            background-color: lightblue;
+        }
+
+        /* Style the first child */
+        div > div:first-child {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Style the last child */
+        div > p:last-child {
+            color: green;
+        }
+
+        /* Style the nth child */
+        div > p:nth-child(3) {
+            font-size: 18px;
+            color: blue;
+        }
+
+        /* Style the span when it's hovered */
+        span:hover {
+            color: purple;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <div>
+            This is div
+            <div>Child Div</div>
+            <p id="1">This is inside div paragraph</p>
+        </div>
+        <span>This is span</span>
+        <p>This is paragraph</p>
+    </div>
+</body>
+</html>
