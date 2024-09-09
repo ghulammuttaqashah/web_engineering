@@ -28,3 +28,25 @@ h5, h6
     font-size: larger;
     color: blue;
 }
+hr
+{
+    color: black;
+}
+
+
+/* Style for <p> elements that are direct children of a <div> */
+div > p {
+    color: blue;
+    text-align: center;
+}
+div > div > p
+{
+    color: aqua;
+    text-align: left;
+}
+
+#hr1{
+    color: blue;
+}
+
+
