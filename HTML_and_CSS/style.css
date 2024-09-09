@@ -1,0 +1,30 @@
+*
+{
+    background-color: wheat;
+}
+
+#two
+{
+    text-align: center;
+}
+
+p.pfour
+{
+    color: brown;
+}
+
+h1
+{
+    color:violet;
+}
+img
+{
+    width: 500px;
+    height: 250px;
+}
+
+h5, h6
+{
+    font-size: larger;
+    color: blue;
+}
