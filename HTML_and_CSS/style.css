@@ -35,18 +35,20 @@ hr
 
 
 /* Style for <p> elements that are direct children of a <div> */
-div > p {
+div + p {
     color: blue;
     text-align: center;
 }
-div > div > p
-{
-    color: aqua;
-    text-align: left;
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: blue;
 }
 
-#hr1{
-    color: blue;
+.eight:hover{
+    color: aquamarine;
+    background-color: aqua;
 }
 
 
